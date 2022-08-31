@@ -1,0 +1,62 @@
+body{
+   display: block;
+   background: ghostwhite;
+   height: 100vh;
+      
+}
+.Login{
+   transform: translate(0,10%);
+   position: relative;
+   background-color: white;
+   width: 400px;
+   height: 450px;
+   margin-top: 50%;
+   margin: 0 auto;
+}
+.Logo {
+   position: absolute;
+   top:20%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   justify-content: center;
+   width: 200px;
+}
+.input1{
+   position: absolute;
+   top:45%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   width: 280px;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+input{
+   outline: none;
+   background-color: rgb(240, 235, 235);
+   
+}
+.LoginButton{
+   background-color: rgb(243, 236, 236);
+   margin-bottom: 6px;
+   width: 280px;
+   
+}
+div>.UserButton{
+   
+   width: 280px;
+   background-color: rgb(243, 236, 236);
+}
+.Button{
+   position: absolute;
+   top:70%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   width: 280px;
+   justify-content: center;
+   flex-direction: column;
+   
+}
