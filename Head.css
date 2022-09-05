@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "EarlyFontDiary";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.SerchBar{
+  outline: none;
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+}
+.Topbar * {
+  font-family: "EarlyFontDiary";
+}
+.dropdown a {
+  font-size: 1.1rem;
+}
+.Topbar {
+  border-bottom: 1.5px rgb(209, 209, 209) solid;
+  background-color: white;
+  position: sticky;
+  top: 0%;
+  z-index: 9999;
+}
+
+.Topbar_logo {
+  max-width: 975px;
+  margin: 0 auto;
+}
+a {
+  font-weight: bolder;
+}
+
+.search {
+  margin: 0 120px;
+  position: relative;
+  width: 250px;
+  
+}
+
+.search > input {
+  text-align: center;
+  outline: none;
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.search >  img {
+  margin-left: 100px;
+  position : absolute;
+  width: 20px;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+}
